@@ -5,12 +5,13 @@
  */
 package namedateadress;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author jonny.phimthaisongan
  */
 public class NameDateAdress {
-import javax.swing.JOptionPane;
     /**
      * @param args the command line arguments
      */
@@ -24,6 +25,12 @@ import javax.swing.JOptionPane;
          * Välkommen <Namn>, då du fyller den <Del av personnummer som visar födelsedagen> kommer vi komma till dig, <Address> och fira dig. Detta är ett automatiskt meddelande.
          */
         
+        String Name = JOptionPane.showInputDialog("Fyll i ditt Namn","Ex: Adrian Andersson");
+        String SocNumber = JOptionPane.showInputDialog("Fyll i ditt Personnummer","121212-1212");
+        String Adress = JOptionPane.showInputDialog("Fyll i din Adress","Ex: Karlsgatan 30");
+        
+        String SocNumberDone = SocNumber.substring(0,6);
+        JOptionPane.showMessageDialog( null, "Välkommen " + Name + ", " + "då du fyller den " + SocNumberDone + " " + "kommer vi koma till dig," + Adress + " " + "och fira dig. Detta är ett automatiskt meddelande.", "Done" ,JOptionPane.PLAIN_MESSAGE);
     }
     
 }
