@@ -81,3 +81,9 @@ public class NameDateAdress {
     }
     
 }
+
+/*
+Tack!
+Kul att du testar switch. Programmet hade blivit mer kompakt om du använt en Array med månadsnummer som index, men du löste uppgiften!
+
+*/
