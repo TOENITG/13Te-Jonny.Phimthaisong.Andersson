@@ -42,3 +42,10 @@ public class FemOlikaOrd {
     }
     
 }
+
+/*
+Tack!
+Kort och enkalt. Det hade blivit mer kompakt om du använt en Array och en for-loop, men det var inte nödvändigt.
+Sedan så hade du inte följt instuktionen att lägga filerna i ett och samma projekt. Fy! ;o)
+
+*/
