@@ -6,10 +6,8 @@ public class Plus {
     
     public static void main(String[] args) {
 
-
         System.out.println("Number:");
         double number = input();
-
 
         System.out.println("Next Number:");
         number = number + input();
@@ -30,9 +28,7 @@ public class Plus {
         number = number / input();
 
         System.out.println("Division:" + number);
-
     }
-    
     static double input() {
         double number = 0;
         Scanner userinput = new Scanner(System.in);
