@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#about {
+	border: solid;
+	border-color:#006EF3;
+	background-color:#89FFFD;
+	height: 5cm;
+	width: 15cm;
+	border-radius: 30%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+body  {
+	background-image:url(SweWayBG.png);
+}
+span{
+	font-size:15px;
+	color:#FF0000;
+}
