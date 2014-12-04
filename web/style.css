@@ -3,19 +3,84 @@
 
 #about {
 	border: solid;
-	border-color:#006EF3;
-	background-color:#89FFFD;
-	height: 5cm;
+	border-color: #FF00E5;
+	background-color: #D4D4D4;
+	height: 3cm;
 	width: 15cm;
-	border-radius: 30%;
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
+	border-radius: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+#list {
+	float: left;
+	border: solid;
+	border-color: #FF00E5;
+	background-color: #D4D4D4;
+	height: 26cm;
+	width: 6cm;
+	text-align: left;
+	border-radius: 35px;
+	margin: 5px 0% 5% 5%
+}
+
+.list {
+	font-size: 25px;
+}
+
 body  {
-	background-image:url(SweWayBG.png);
+	background-color: #000000;
 }
+
+#cake {
+	border: solid;
+	border-color: #FFFFFF;
+	height: 275px;
+	width: 259px;
+	margin-left: 5%;
+	background-image: url(steam-portal_00396073.png);
+}
+
+#realchicken {
+	border: solid;
+	border-color: #42FF13;
+	background-color: #D49999;
+	height: 2.5cm;
+	
+}
+
+#chicken {
+	border: solid;
+	border-color: #42FF13;
+	background-image: url(20141113_140852.png);
+	height: 275px;
+	width: 161px;
+	text-align: center;
+	color: #FF3FE0;
+	
+}
+
 span{
 	font-size:15px;
 	color:#FF0000;
+}
+
+a:link {
+    color: #CD00C6;
+	text-decoration: none;
+}
+
+a:visited {
+    color: ##D4D4D4;
+}
+
+a:hover {
+    color: #FFF500;
+	text-decoration: none;
+}
+
+a:active {
+    color: #00FFF3;
+	text-decoration: none;
 }
